@@ -1,4 +1,4 @@
-# Battleship Game
+# Battleship 
 
 We call `read_ships_file` to create a `GameBoard` for each player; then, we call `read_attacks_file` to get an Array of `Position` objects which represent the attack strategy of each player. If no attack strategy file is provided, the game controller generates 35 random attack positions and uses them instead. Each player's `GameBoard`'s `attack_pos` method is called alternately with the other player's attacks (i.e., the `Position` objects), one player's attack, then the other's. The game ends on one of these two cases:
 
